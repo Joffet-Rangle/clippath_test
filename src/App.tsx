@@ -6,11 +6,20 @@ const App = () => {
     <div className="container">
       <video className="isClipped" src="traffic2.mp4" autoPlay muted loop />
       <video className="isClipped" src="office.mp4" autoPlay muted loop />
-      <svg width="0" height="0">
+      <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg">
         <clipPath id="svgClip" clipPathUnits="objectBoundingBox">
-          <path d="M 0.523438 0.890625 L 0.496094 0.941406 Z M 0.976562 0.0429688 L 0.949219 0.09375 Z M 0.523438 0.890625 L 0.949219 0.09375 Z M 0.976562 0.0429688 L 0.976562 0.941406 L 0.496094 0.941406 Z M 0.269531 0.441406 C 0.3125 0.441406 0.339844 0.390625 0.339844 0.3125 C 0.339844 0.234375 0.3125 0.183594 0.269531 0.183594 L 0.113281 0.183594 L 0.113281 0.441406 Z M 0.113281 0.941406 L 0.0234375 0.941406 L 0.0234375 0.0429688 L 0.269531 0.0429688 C 0.367188 0.0429688 0.429688 0.152344 0.429688 0.3125 C 0.429688 0.472656 0.367188 0.582031 0.269531 0.582031 L 0.25 0.582031 L 0.441406 0.941406 L 0.320312 0.941406 L 0.132812 0.582031 L 0.113281 0.582031 Z M 0.113281 0.941406 " />
+          <path
+            transform="rotate(20)"
+            d="M0.988382 0H0.606045L0 0.606365H0.382337L0.988382 0ZM1 0.606855V0.046371L0.448589 0.606855H1Z"
+            fill="#262626"
+          />
         </clipPath>
       </svg>
+      {/* <svg width="0" height="0">
+        <clipPath id="svgClip" clipPathUnits="objectBoundingBox">
+          <path d="M0.988382 0H0.606045L0 0.606365H0.382337L0.988382 0ZM1 0.606855V0.046371L0.448589 0.606855H1Z" />
+        </clipPath>
+      </svg> */}
     </div>
   );
 };
